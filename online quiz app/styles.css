@@ -1,0 +1,106 @@
+/* General Body and Container */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f8fd;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2d98da;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Quiz Category Selection */
+#categorySelection {
+    margin-bottom: 30px;
+}
+
+select, button {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #f1f8fd;
+    cursor: pointer;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Quiz Question and Options */
+#questionContainer {
+    margin-top: 30px;
+    text-align: left;
+}
+
+h3 {
+    color: #2d98da;
+    font-size: 24px;
+}
+
+.quiz-option {
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.quiz-option:hover {
+    background-color: #d9efff;
+    border-color: #007bff;
+}
+
+/* Result Section */
+#quizResult {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+#quizResult.failed {
+    color: #dc3545;
+}
+
+#submitQuizBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#submitQuizBtn:hover {
+    background-color: #218838;
+}
+
